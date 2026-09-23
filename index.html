@@ -57,6 +57,15 @@ nav .nav-cv{padding:.45rem .95rem; border-radius:999px; background:var(--gold); 
 .hero-grid{position:relative; display:grid; grid-template-columns:1.15fr 1fr; gap:3rem; align-items:center}
 .pill{display:inline-flex; flex-wrap:wrap; line-height:1.4; align-items:center; gap:.55rem; padding:.4rem .9rem .4rem .7rem; border-radius:999px; background:rgba(255,255,255,.07); border:1px solid rgba(255,255,255,.14); font-size:.9rem; color:#fff; margin-bottom:1.6rem}
 .pill b{width:.55rem; height:.55rem; border-radius:50%; background:#5BD48F; box-shadow:0 0 0 4px rgba(91,212,143,.22)}
+.search{background:var(--gold); color:var(--gold-ink); border-radius:22px; padding:1.1rem 1.4rem 1.2rem; margin:0 0 2rem; max-width:34rem; box-shadow:0 20px 40px -20px rgba(227,168,43,.55)}
+.search p{margin:0}
+.search-top{display:flex; align-items:center; gap:.55rem; font-weight:600; font-size:.95rem}
+.search-top b{width:.6rem; height:.6rem; border-radius:50%; background:#1E8A4F; box-shadow:0 0 0 4px rgba(30,138,79,.25)}
+.search-job{font-family:var(--display); font-weight:800; font-size:clamp(1.35rem,2.6vw,1.75rem); line-height:1.15; letter-spacing:-.02em; margin:.35rem 0 .7rem!important}
+.search ul{list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap; gap:.4rem}
+.search li strong{font-weight:700}
+.search li:first-child{background:var(--navy); color:#fff}
+.search li{font-size:.86rem; font-weight:500; padding:.28rem .7rem; border-radius:999px; background:rgba(59,42,5,.12)}
 h1{font-family:var(--display); font-weight:800; font-size:clamp(3rem, 7.2vw, 5.6rem); line-height:.92; letter-spacing:-.04em; margin:0; color:#fff}
 .role{font-family:var(--display); font-weight:600; font-size:clamp(1.25rem,2.4vw,1.65rem); color:var(--gold); margin:1rem 0 1.3rem; letter-spacing:-.01em}
 .lead{font-size:1.14rem; color:#C5D0E3; max-width:33em; margin:0 0 2.2rem}
@@ -244,9 +253,18 @@ footer .wrap{display:flex; justify-content:space-between; flex-wrap:wrap; gap:1r
     <div class="wrap">
       <div class="hero-grid">
         <div>
-          <p class="pill"><b></b>Recherche une alternance pour mon Master 2 : 3 semaines en entreprise, 1 semaine à l'école</p>
+          <div class="search">
+            <p class="search-top"><b></b>Je recherche une alternance</p>
+            <p class="search-job">Chef de projet systèmes d'information</p>
+            <ul>
+              <li><strong>Disponible immédiatement</strong></li>
+              <li>Master 2</li>
+              <li>3 semaines en entreprise, 1 semaine à l'école</li>
+              <li>Île-de-France, mobile partout en France</li>
+            </ul>
+          </div>
           <h1>Mouhamadou<br>Diol</h1>
-          <p class="role">Chef de projet systèmes d'information</p>
+          <p class="role">Gestion de projet SI, pilotage et coordination</p>
           <p class="lead">Étudiant en <strong>Master Expert en Systèmes d'Information et Sécurité</strong> à Paris, j'ai <strong>12 mois d'expérience en gestion de projet</strong>. Je cadre, planifie et pilote des projets SI en coordonnant équipes techniques, métiers et parties prenantes.</p>
           <div class="cta">
             <a class="btn gold" href="#projets">Voir mes projets</a>
